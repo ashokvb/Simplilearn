@@ -1,0 +1,18 @@
+#!/usr/bin/env groovy
+pipeline {
+    
+    agent any
+    
+    stages{
+        stage("Checkout the project") {
+           steps{
+               git branch: 'DEV', credentialsId: '9b339291-263d-4c63-bf51-c1363940c052', url: 'https://campusmgmt-ps@dev.azure.com/campusmgmt-ps/Automation%20-%20GDC/_git/Anthology_DEVOPS'
+           } 
+        }
+        stage("Build the package"){
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+    }
+}
