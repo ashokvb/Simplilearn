@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage("Checkout the project") {
            steps{
-               git branch: 'main', credentialsId: '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', url: 'https://github.com/ashokvb/Simplilearn'
+               git branch: 'DEV', credentialsId: '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', url: 'https://github.com/ashokvb/Simplilearn'
            } 
         }
         stage("Build the Maven package"){
