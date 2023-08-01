@@ -1,29 +1,17 @@
 pipeline {
-    agent {
-        docker {
-            image 'maven:3-alpine'
-            args '-v /root/.m2:/root/.m2'
-        }
+    agent any
+    tools{
+        maven 'apache-maven-3.9.3'
     }
-    stages {
-        stage('Build') {
-            steps {
-                sh 'mvn -B -DskipTests clean package'
-            }
+    stages{
+        stage("Checkout the project") {
+           steps{
+               git branch: 'main', credentialsId: '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', url: 'https://github.com/ashokvb/Simplilearn'
+           } 
         }
-        stage('Test') {
+        stage("Build the Maven package"){
             steps {
-                sh 'mvn test'
-            }
-            post {
-                always {
-                    junit 'target/surefire-reports/*.xml'
-                }
-            }
-        }
-        stage('Deliver') {
-            steps {
-                sh './jenkins/scripts/deliver.sh'
+                sh 'mvn clean package'
             }
         }
     }
