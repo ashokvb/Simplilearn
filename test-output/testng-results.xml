@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-10T14:54:45 IST" name="Default suite" finished-at="2022-10-10T14:54:49 IST" duration-ms="3955">
+    <groups>
+    </groups>
+    <test started-at="2022-10-10T14:54:45 IST" name="Default test" finished-at="2022-10-10T14:54:49 IST" duration-ms="3955">
+      <class name="com.StudentPortal.StudentTests.StudentsDCRCAPITests">
+        <test-method is-config="true" signature="beforeTestSuite(org.testng.ITestContext)[pri:0, instance:com.StudentPortal.StudentTests.StudentsDCRCAPITests@45c8d09f]" started-at="2022-10-10T14:54:45 IST" name="beforeTestSuite" finished-at="2022-10-10T14:54:45 IST" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5729b410]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSuite -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.StudentPortal.StudentTests.StudentsDCRCAPITests@45c8d09f]" started-at="2022-10-10T14:54:45 IST" name="beforeTest" finished-at="2022-10-10T14:54:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5729b410]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@c2c0874e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.StudentPortal.StudentTests.StudentsDCRCAPITests@45c8d09f]" started-at="2022-10-10T14:54:45 IST" name="beforeTestMethod" finished-at="2022-10-10T14:54:45 IST" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3b7c58e7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.StudentPortal.StudentTests.StudentsDCRCAPITests.PlacestudentsintointernshipPosition(com.framework.util.StringHash) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5729b410]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@c2c0874e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="PlacestudentsintointernshipPosition(com.framework.util.StringHash)[pri:37, instance:com.StudentPortal.StudentTests.StudentsDCRCAPITests@45c8d09f]" started-at="2022-10-10T14:54:45 IST" name="PlacestudentsintointernshipPosition" description="Test Script to Place students intoaninternship Position" data-provider="getData" finished-at="2022-10-10T14:54:49 IST" duration-ms="3459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Browser=chrome, Password=Dcrc@2024, PlStudentID=61322, DatePlaced=2022/07/12 00:00:00, EndDate=1900/01/01 00:00:00, URI=https://sisclientweb-900070.campusnexus.cloud/api/commands/CareerServices/StudentPlacement/SaveStudentPlacement, UserName=ashokb@900070cust.campusnexus.cloud, Runmode=Y, PlJobTitleID=13, Token=YXNob2tiQDkwMDA3MGN1c3QuY2FtcHVzbmV4dXMuY2xvdWQ6RGNyY0AyMDI0, Status=A, UserID=3501, HowPlacedId=1, InFieldOfStudy=R, TermDate=1900/01/01 00:00:00, StartDate=2022/07/15 00:00:00, EmployerID=4, JobSchedule=F, JobTypeID=1, Students=BECKY ALANIS}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlacestudentsintointernshipPosition -->
+        <test-method is-config="true" signature="afterTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.StudentPortal.StudentTests.StudentsDCRCAPITests@45c8d09f]" started-at="2022-10-10T14:54:49 IST" name="afterTestMethod" finished-at="2022-10-10T14:54:49 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3b7c58e7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.StudentPortal.StudentTests.StudentsDCRCAPITests.PlacestudentsintointernshipPosition(com.framework.util.StringHash) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5729b410]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@c2c0874e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="afterTestSuite()[pri:0, instance:com.StudentPortal.StudentTests.StudentsDCRCAPITests@45c8d09f]" started-at="2022-10-10T14:54:49 IST" name="afterTestSuite" finished-at="2022-10-10T14:54:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuite -->
+      </class> <!-- com.StudentPortal.StudentTests.StudentsDCRCAPITests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
