@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.sourceEncoding>1.6</project.build.sourceEncoding>
   </properties>
   <build>
     <pluginManagement>
